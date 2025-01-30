@@ -25,10 +25,12 @@ body {
   font-family: 'Helvetica', sans-serif;
 }
 
+/* Overriding header styles */
 h1, h2, h3 {
   color: var(--nord-8);
 }
 
+/* Links and hover states */
 a {
   color: var(--nord-7);
 }
@@ -37,7 +39,7 @@ a:hover {
   color: var(--nord-9);
 }
 
-/* Optional: styling code blocks with Nord colors */
+/* Styling for code blocks */
 pre {
   background-color: var(--nord-2);
   color: var(--nord-4);
@@ -46,4 +48,19 @@ pre {
 code {
   background-color: var(--nord-3);
   color: var(--nord-8);
+}
+
+/* Overriding Minima's default button styles */
+button {
+  background-color: var(--nord-6);
+  color: var(--nord-0);
+}
+
+button:hover {
+  background-color: var(--nord-7);
+}
+
+/* Any other elements you want to customize */
+.header, .footer {
+  background-color: var(--nord-0);
 }
