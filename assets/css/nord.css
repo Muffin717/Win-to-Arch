@@ -1,30 +1,84 @@
-/* Nord Color Palette */
+/* Nord color palette */
 :root {
-    --nord-0: #3b4252;
-    --nord-1: #434c5e;
-    --nord-2: #4c566a;
-    --nord-3: #d8dee9;
-    --nord-4: #e5e9f0;
-    --nord-5: #eceff4;
-    --nord-6: #8fbcbb;
-    --nord-7: #88c0d0;
-    --nord-8: #81a1c1;
-    --nord-9: #5e81ac;
-    --nord-10: #3b4252;
-    --nord-11: #2e3440;
+    --nord-0: #3b4252 !important;
+    --nord-1: #434c5e !important;
+    --nord-2: #4c566a !important;
+    --nord-3: #d8dee9 !important;
+    --nord-4: #e5e9f0 !important;
+    --nord-5: #eceff4 !important;
+    --nord-6: #8fbcbb !important;
+    --nord-7: #88c0d0 !important;
+    --nord-8: #81a1c1 !important;
+    --nord-9: #5e81ac !important;
+    --nord-10: #3b4252 !important;
+    --nord-11: #2e3440 !important;
 }
 
-
+/* Body background color and text color */
 body {
-    background-color: var(--nord-11);
-    color: var(--nord-4);
+    background-color: var(--nord-11) !important;
+    color: var(--nord-4) !important;
 }
 
+/* Header and Footer */
+header, footer {
+    background-color: var(--nord-11) !important;
+    color: var(--nord-4) !important;
+}
 
+/* Links */
 a {
-    color: var(--nord-7);
+    color: var(--nord-7) !important;
 }
 
 a:hover {
-    color: var(--nord-8);
+    color: var(--nord-8) !important;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--nord-4) !important;
+}
+
+/* Paragraphs */
+p {
+    color: var(--nord-3) !important;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: var(--nord-10) !important;
+    color: var(--nord-4) !important;
+}
+
+/* Buttons */
+button {
+    background-color: var(--nord-7) !important;
+    color: var(--nord-11) !important;
+}
+
+/* Links inside buttons */
+button a {
+    color: var(--nord-11) !important;
+}
+
+/* Footer links */
+footer a {
+    color: var(--nord-8) !important;
+}
+
+footer a:hover {
+    color: var(--nord-7) !important;
+}
+
+/* Main content background */
+.main-content {
+    background-color: var(--nord-11) !important;
+    color: var(--nord-4) !important;
+}
+
+/* Sidebars (if any) */
+.sidebar {
+    background-color: var(--nord-10) !important;
+    color: var(--nord-4) !important;
 }
