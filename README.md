@@ -63,7 +63,7 @@ To check the authenticity and safety of the downloaded ISO file, you can use **G
      - **MBR** as the partition scheme.
      - **BIOS or UEFI** as the target system.
 5. Leave other options as default.
-6. Click **START**. When prompted, Rufus will recommend choosing **"Write in ISO Image mode."**
+6. Click **START**. When prompted, even if Rufus recommends choosing "Write in ISO Image mode", **do not** select that option yet.
    - However, this guide **recommends selecting "Write in DD Image mode"** to avoid future issues.
 
    > **⚠ WARNING:** Choosing this option may cause for you to not access the USB stick completely after writing the ISO to it, so make sure to use a USB stick **purely for the purposes of this task.**
