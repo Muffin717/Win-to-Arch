@@ -29,8 +29,8 @@ On Windows 10/11, there are multiple tools that can execute this task, such as *
 - Feel free to choose between the standart or portable versions.
 
 #### 2. Download EndeavourOS ISO
-- Visit the [official EndeavourOS website](https://endeavouros.com/) and download the latest ISO version from the listed mirrors.
-- Also, download the **signature file**.
+- Visit the [official EndeavourOS website](https://endeavouros.com/) and download the latest ISO version that is suitable for your system from the listed mirrors.
+- Consider downloading the **signature file** for the 3. step.
 - For faster downloads, choose a mirror closest to your geographical location.
 
 #### 3. Verify the ISO (Optional but Highly Recommended)
