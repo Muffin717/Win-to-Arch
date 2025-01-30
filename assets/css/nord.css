@@ -1,0 +1,49 @@
+/* Nord theme color definitions */
+:root {
+  --nord-0: #3b4252;
+  --nord-1: #434c5e;
+  --nord-2: #4c566a;
+  --nord-3: #d8dee9;
+  --nord-4: #e5e9f0;
+  --nord-5: #eceff4;
+  --nord-6: #8fbcbb;
+  --nord-7: #88c0d0;
+  --nord-8: #81a1c1;
+  --nord-9: #5e81ac;
+  --nord-10: #3b4252;
+  --nord-11: #2e3440;
+  --nord-12: #bf616a;
+  --nord-13: #d08770;
+  --nord-14: #ebcb8b;
+  --nord-15: #a3be8c;
+}
+
+/* Apply the colors to body and text */
+body {
+  background-color: var(--nord-11);
+  color: var(--nord-4);
+  font-family: 'Helvetica', sans-serif;
+}
+
+h1, h2, h3 {
+  color: var(--nord-8);
+}
+
+a {
+  color: var(--nord-7);
+}
+
+a:hover {
+  color: var(--nord-9);
+}
+
+/* Optional: styling code blocks with Nord colors */
+pre {
+  background-color: var(--nord-2);
+  color: var(--nord-4);
+}
+
+code {
+  background-color: var(--nord-3);
+  color: var(--nord-8);
+}
