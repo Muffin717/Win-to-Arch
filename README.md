@@ -37,18 +37,19 @@ On Windows 10/11, there are multiple tools that can execute this task, such as *
 To check the authenticity and safety of the downloaded ISO file, you can use **GPG**. The recommended way to use GPG in this guide is via **WSL (Windows Subsystem for Linux)**.
 
 1. Install WSL by running **PowerShell as administrator** and executing:
+The default distro in WSL is **Ubuntu**, however because this guide aims to only use free and open source software, Debian will be used instead.
    ```powershell
-   wsl --install
+   wsl --install -d Debian
    ```
-   Restart your computer once the installation is complete.
-2. The default distro in WSL is **Ubuntu**, so this guide assumes you are using Ubuntu.
-3. Check if GPG is installed by running:
+3. Restart your computer once the installation is complete.
+
+4. Check if GPG is installed by running:
    ```bash
    sudo apt install gpg
    ```
    If it is not installed, install it using the above command.
-4. Follow the instructions on the EndeavourOS website to verify the ISO file using the **sha512** and **gpg** commands.
-5. If the verification returns **"OK"**, proceed with the next step.
+5. Follow the instructions on the EndeavourOS website to verify the ISO file using the **sha512** and **gpg** commands.
+6. If the verification returns **"OK"**, proceed with the next step.
 
 #### 4. Create a Bootable USB with Rufus
 1. Plug in your **USB stick** and open **Rufus**.
