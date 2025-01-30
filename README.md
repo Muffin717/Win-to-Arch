@@ -8,7 +8,7 @@ I believe the best way to do this is to share experience; therefore, this guide 
 
 > **⚠ WARNING:** Win-to-Arch targets users who have a certain amount of knowledge about GNU/Linux and are comfortable with using the terminal. Even though this document aims to make Arch as user-friendly and graphical as possible, please ensure you do enough research about GNU/Linux and the terminal before attempting the migration, as you will need to use the terminal to resolve issues or even install packages/applications.
 >
-> Everything that is aimed to be used in this guide is completely free and open-source software.
+> Everything that is aimed to be used in this guide is **completely free and open-source software**.
 
 ---
 
