@@ -31,7 +31,7 @@ On Windows 10/11, there are multiple tools that can execute this task, such as *
 #### 2. Download EndeavourOS ISO
 - Visit the [official EndeavourOS website](https://endeavouros.com/) and download the latest ISO version that is suitable for your system from the listed mirrors.
 - Consider downloading the **signature file** for the 3. step.
-- For faster downloads, choose a mirror closest to your geographical location.
+- To make the overall process faster, choose a mirror closest to your geographical location.
 
 #### 3. Verify the ISO (Optional but Highly Recommended)
 To check the authenticity and safety of the downloaded ISO file, you can use **GPG**. The recommended way to use GPG in this guide is via **WSL (Windows Subsystem for Linux)**.
