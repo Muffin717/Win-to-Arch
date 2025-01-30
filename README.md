@@ -26,7 +26,7 @@ On Windows 10/11, there are multiple tools that can execute this task, such as *
 
 #### 1. Download Rufus
 - Visit the [official Rufus website](https://rufus.ie/) and download the version suitable for your system.
-- (Optional) Choose between the **standard** or **portable** versions.
+- Feel free to choose between the standart or portable versions.
 
 #### 2. Download EndeavourOS ISO
 - Visit the [official EndeavourOS website](https://endeavouros.com/) and download the latest ISO version from the listed mirrors.
