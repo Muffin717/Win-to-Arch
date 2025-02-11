@@ -1,5 +1,10 @@
 # Win-to-Arch: A Simple Guide for Migrating from Windows to Arch Linux
 
+| 📝 **Quote** |
+|--------------|
+| "No matter how great the crises arising from freedom, they are never more dangerous than the false security of too much repression." |
+| — Mustafa Kemal Atatürk |
+
 ## Introduction
 
 **Win-to-Arch** is a simple step-by-step guide, completely written by myself to help anyone who would like to switch from their Windows 10/11 system to an Arch Linux-based system while keeping the process as simple as possible without adding any unnecessary bloat to the operating system.
@@ -38,8 +43,9 @@ On Windows 10/11, there are multiple tools that can execute this task, such as *
 #### 3. Verify the ISO (Optional but Highly Recommended)
 To check the authenticity and safety of the downloaded ISO file, you can use **GPG**. The recommended way to use GPG in this guide is via **WSL (Windows Subsystem for Linux)**.
 
-1. Install WSL by running **PowerShell as administrator** and executing:
-The default distro in WSL is **Ubuntu**, however because this guide aims to only use free and open source software, Debian will be used instead.
+1. Install WSL by running **PowerShell as administrator** and run:
+(The default distro in WSL is **Ubuntu**, however because this guide aims to only use free and open source software, Debian will be used instead.)
+
    ```powershell
    wsl --install -d Debian
    ```
@@ -132,6 +138,3 @@ If you are not using an Nvidia graphics card and want to keep your system fully 
 ---
 
 **Thank you for following this guide in your journey, and congratulations on your new Arch system!**
-
-
-
