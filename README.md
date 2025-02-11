@@ -8,6 +8,8 @@ I believe the best way to do this is to share experience; therefore, this guide 
 
 > **⚠ WARNING:** Win-to-Arch targets users who have a certain amount of knowledge about GNU/Linux and are comfortable with using the terminal. Even though this document aims to make Arch as user-friendly and graphical as possible, please ensure you do enough research about GNU/Linux and the terminal before attempting the migration, as you will need to use the terminal to resolve issues or even install packages/applications.
 >
+> It is recommended to completely read this guide before attempting any of the steps to prevent future complications. 
+>
 > Everything that is aimed to be used in this guide is **completely free and open-source software**.
 
 ---
@@ -75,4 +77,57 @@ The default distro in WSL is **Ubuntu**, however because this guide aims to only
 
 ---
 
-Work in progress!
+## Installing Arch via EndeavourOS
+
+- In order to install EndeavourOS to your system, insert the bootable USB drive to the device that you'd like to use Arch on while it is **not running**.
+
+Proceed with booting up your system and constantly pressing the correct key to launch into your BIOS/UEFI interface. If you don't know what is the correct key, you can search for it in your computer's / motherboard's manifacturer's website, or you can try a few common keys like DEL, F2, F10, and ESC to see which one will work.
+
+> **⚠ WARNING:** If you are installing Linux on a Windows system that is infected with malware, make sure you know the correct key. If you accidently boot into your infected operating system with the USB drive inserted, it may also get infected depending on the type and behavior of the malware. This guide recommends for you to ensure that your infected system can not access the network in any way and to test the correct key **before booting the system with the USB inserted**, to safely check if you can successfully boot into your BIOS/UEFI without taking any major risks.
+
+> This method is generally safe for devices that only have the operating system infected and not the boot loader / BIOS/UEFI. Proceed with caution.
+
+> You may ignore this warning if your system is not infected.
+
+Once you safely boot up to your BIOS/UEFI with your bootable USB drive inserted, you can proceed by selecting the USB drive from the boot menu. If you have trouble locating it, you may need to check the sources of the manifacturer of your computer / motherboard.
+
+
+EndeavourOS comes with the Calamares system installer, which is an installer with a graphical user interface.
+
+EndeavourOS only ships with the following packages, which provide security and contribute to having a complete Arch system: Firefox, Pacman, Yay, FirewallD, Pipewire, Nvidia installer, Dracut, Power-Profiles-Daemon.
+
+During the installation most of the options will be clearly understandable in your preferred language. 
+
+
+- In the desktop environment choosing part, this guide recommends KDE Plasma, as it is a complete desktop environment with all the basic features as Windows and an app ecosystem with a similar look and feel. It is also highly customisable. However feel free to choose any other desktop environment or window manager.
+
+> **⚠ WARNING:** During the **"Partition"** section of the installation, you will be asked to edit your drive's partitions and choose one to install the operating system on.
+
+> If you prefer to dual-boot Windows with Arch, you can create a new partition while keeping your Windows partition. The minimum requirement mentioned in the official EndeavourOS website is 15 GB.
+
+> However, if you prefer to completely wipe your drive (recommended for users who do not want to keep Windows on their system), you may delete all of the listed partitions, and install EndeavourOS on one of them.
+
+> Please make sure to **backup any data from your system that you would like to keep** before proceeding.
+
+You will also be presented with the choice to encrypt your disk. 
+
+Disk encryption is an option which you can choose to completely encrypt your drive, which will lead you to enter passwords more than usual. If you want to protect your data from being accessed when your drive is stolen, you should enable this option. Especially recommended for laptop users.
+
+
+When you're done with the disk partitioning, you may move on with the next steps and finish the installation.
+
+
+## Booting into Arch
+ 
+When your installation process is finished, you will be prompted to restart your system. Once you restart you should be greeted with your new Arch installation. If not, you may need to boot into your BIOS/UEFI and change the boot order priority, or check the boot menu settings.
+
+> **NOTE:** EndeavourOS is esentially just Arch Linux with a graphical installation screen to make process simpler and a few packages pre-installed (that have been mentioned before), which you may choose to not install most of them during the installation screen. After the installation your system will be running Arch Linux. 
+
+This guide mentions that the software that is used in this guide will be completely free and open-source.
+
+For Nvidia users: If you would also like all of the software in your system to be free and open-source, you would want to use the open source Nouveau drivers instead of the closed-source proprietary Nvidia drivers. To achieve this, you can run `sudo nvidia-inst -n` in your preferred terminal and proceed. 
+
+If you are not using an Nvidia graphics card and keep your system fully free and open-source, you may search for any packages that might be included in your system that are related to the proprietary Nvidia drivers as the latest EndeavourOS ISO releases ship with them, and remove them.
+
+
+**Thank you for following this guide in your journey, and congratulations on your new Arch system!**
