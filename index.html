@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Win-to-Arch/title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2E3440;
+            color: #D8DEE9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        #sidebar {
+            width: 250px;
+            background-color: #3B4252;
+            padding: 20px;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+        }
+        #content {
+            margin-left: 270px;
+            padding: 20px;
+            max-width: 800px;
+        }
+        h1, h2, h3 {
+            color: #88C0D0;
+        }
+        a {
+            color: #81A1C1;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        pre {
+            background: #4C566A;
+            padding: 10px;
+            overflow-x: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <h2>Win-to-Arch Guide</h2>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#preparing">Preparing Arch Installation</a></li>
+            <li><a href="#installing">Installing Arch</a></li>
+            <li><a href="#booting">Booting into Arch</a></li>
+        </ul>
+    </div>
+    
+    <div id="content">
+        <h1>Win-to-Arch: A Simple Guide</h1>
+        <blockquote>"No matter how great the crises arising from freedom, they are never more dangerous than the false security of too much repression."<br>— Mustafa Kemal Atat&uuml;rk</blockquote>
+        
+        <h2 id="introduction">Introduction</h2>
+        <p><strong>Win-to-Arch</strong> is a simple step-by-step guide...</p>
+        
+        <h2 id="preparing">Preparing Arch Installation</h2>
+        <p>Arch Linux does not have a graphical installation screen...</p>
+        
+        <h3>Steps to Create a Bootable USB Drive</h3>
+        <h4>1. Download Rufus</h4>
+        <p>Visit the <a href="https://rufus.ie/">official Rufus website</a>...</p>
+        
+        <h4>2. Download EndeavourOS ISO</h4>
+        <p>Visit the <a href="https://endeavouros.com/">official EndeavourOS website</a>...</p>
+        
+        <h4>3. Verify the ISO</h4>
+        <pre>wsl --install -d Debian</pre>
+        
+        <h4>4. Create a Bootable USB with Rufus</h4>
+        <p>Plug in your USB stick and open Rufus...</p>
+        
+        <h2 id="installing">Installing Arch via EndeavourOS</h2>
+        <p>To install EndeavourOS, insert the bootable USB drive...</p>
+        
+        <h2 id="booting">Booting into Arch</h2>
+        <p>Once the installation is complete, restart your system...</p>
+    </div>
+</body>
+</html>
