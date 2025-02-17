@@ -3,7 +3,6 @@
 | 📝 **Quote** |
 |--------------|
 | "No matter how great the crises arising from freedom, they are never more dangerous than the false security of too much repression." |
-| — Mustafa Kemal Atatürk (Translated) |
 
 ## Introduction
 
