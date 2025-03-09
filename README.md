@@ -1,24 +1,24 @@
-# Win-to-Arch: A Simple Guide for Migrating from Windows to Arch Linux
+# Winden-Archa: Windows'tan, Arch Linux'a Geçmek İçin Basit Bir Rehber
 
-| 📝 **Quote** |
+| 📝 **Söz** |
 |--------------|
-| "No matter how great the crises arising from freedom, they are never more dangerous than the false security of too much repression." |
+| "Özgürlükten doğan bunalımlar ne kadar büyük olursa olsun, hiçbir zaman fazla baskının sağladığı sahte güvenlikten daha tehlikeli değildir." |
 
-## Introduction
+## Giriş
 
-**Win-to-Arch** is a simple step-by-step guide, completely written by myself to help anyone who would like to switch from their Windows 10/11 system to an Arch Linux-based system while keeping the process as simple as possible without adding any unnecessary bloat to the operating system.
+**Winden-Archa**, benim tarafımdan; Windows 10/11 sistemlerinden Arch-Linux bazlı bir sisteme geçmek isteyen, işletim sistemine gereksiz yazılım katmadan ve aynı zamanda süreci mümkün olduğunca basit tutmak isteyen kişilere yardımcı olmak amacıyla yazılmıştır.
 
-I believe the best way to do this is to share experience; therefore, this guide will be mostly based on my personal experience on this journey, tailored to fit anyone who is on the same path.
+Bunu yapmanın en iyi yolunun ise deneyim paylaşmak olduğunu düşünüyorum. Dolayısıyla, bu rehber; bu yola çıkmış olan herhangi birine uyacak şekilde, çoğunlukla kendi deneyimime dayanarak hazırlandı.
 
-> **⚠ WARNING:** Win-to-Arch targets users who have a certain amount of knowledge about GNU/Linux and are comfortable with using the terminal. Even though this document aims to make Arch as user-friendly and graphical as possible, please ensure you do enough research about GNU/Linux and the terminal before attempting the migration, as you will need to use the terminal to resolve issues or even install packages/applications.
+> **⚠ DİKKAT:** Winden-Archa, GNU/Linux hakkında belli bir bilgiye sahip olan ve uçbirimi kullanmakta rahat olan kişileri hedef almakta. Bu belge her ne kadar Arch'ı kullanıcı dostu ve görsel yapmayı hedeflese de sorunları çözmek ve paketler/uygulamalar indirmek için uçbirimi kullanman gerekeceğinden lütfen geçiş yapmayı denemeden önce GNU/Linux uçbirimi hakkında yeterli araştırmayı yapmış olduğundan emin ol.
 >
-> It is recommended to completely read this guide before attempting any of the steps to prevent future complications. 
+> Gelecekte yaşanacak karmaşaları önlemek için herhangi bir adımı denemeye yeltenmeden önce rehberin tamamını okumak önerilir.
 >
-> Everything that is aimed to be used in this guide is **completely free and open-source software**.
+> Bu rehberde kullanılması hedeflenen her şey **tamamen ücretsiz ve açık-kaynak yazılımıdır.**
 
 ---
 
-## Preparing Arch Installation
+## Arch Kurulumunu Hazırlama
 
 Arch Linux by itself does not have any graphical installation screen, which may be difficult for those who would like to use the simplicity and lightweight nature of Arch without the hassle or risk of messing up the installation.
 
