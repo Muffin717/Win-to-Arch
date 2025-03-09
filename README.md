@@ -14,7 +14,7 @@ Bunu yapmanın en iyi yolunun ise deneyim paylaşmak olduğunu düşünüyorum. 
 >
 > Gelecekte yaşanabilecek karmaşaları önlemek için herhangi bir adımı denemeye yeltenmeden önce rehberin tamamını okumak önerilir.
 >
-> Bu rehberde kullanılması hedeflenen her şey **tamamen ücretsiz ve açık-kaynak yazılımıdır.**
+> Bu rehberde kullanılması hedeflenen her şey **tamamen özgür ve açık-kaynak yazılımıdır.**
 
 ---
 
