@@ -20,30 +20,27 @@ Bunu yapmanın en iyi yolunun ise deneyim paylaşmak olduğunu düşünüyorum. 
 
 ## Arch Kurulumunu Hazırlama
 
-Arch Linux by itself does not have any graphical installation screen, which may be difficult for those who would like to use the simplicity and lightweight nature of Arch without the hassle or risk of messing up the installation.
+Arch Linux'un kendisine bünyesinde herhangi bir grafik arayüzüne sahip kurulum ekranı bulunmamaktdır, bu durum Arch'ın basit ve hafif doğasını zorluklarla uğraşmadan veya risk almadan kullanmak isteyenler için zorluklar oluşturabilir.
 
-Therefore, the best option for this case would be using **EndeavourOS**. EndeavourOS is an Arch-based operating system that follows the same principles as Arch and is the most popular Arch-based distro according to Distrowatch.
+Bu nedenle mevcut duruma en uygun olarak **EndeavourOS** kullanılabilir. EndeavourOS Arch tabanlı bir işletim sistemidir ve Arch ile aynı prensipleri takip eder. Aynı zamanda güncel olarak Distrowatch'a göre en popüler Arch tabanlı işletim sistemidir.
 
-To install Arch (EndeavourOS), you will need to create a bootable drive. The recommended method is to use a USB stick (minimum **2 GB recommended**) and turn it into a bootable drive, which will be used to install EndeavourOS.
+Arch'ı (EndeavourOS'i) kurmak için önyüklenebilir bir bellek kullanabilirsiniz. Önerilen yöntem ise (en az **2GB önerilir**) bir USB belleği kullanmaktıp, onu EndeavourOS'i kurmak için bir önyüklenebilir belleğe çevirmektir.
 
-On Windows 10/11, there are multiple tools that can execute this task, such as **Ventoy** and **Rufus**. The recommended program for this guide is **Rufus**, as it is the one I have used, but feel free to use any other tool if you know how to.
+Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilicek **Ventoy** ve **Rufus** gibi programlar bulunmaktadır. Bu rehberde ise önerilen program Rufus'tur, çünkü kendi deneyimlerince onu kullandım, fakat siz lütfen istediğiniz ve kullanmayı bildiğiniz farklı herhangi bir programı kullanmaktan çekinmeyin.
 
-### Steps to Create a Bootable USB Drive
+### Önyüklenebilir USB Belleği Oluşturmanın Adımları
 
-#### 1. Download Rufus
-- Visit the [official Rufus website](https://rufus.ie/) and download the version suitable for your system.
-- Feel free to choose between the standart or portable versions.
+#### 1. Rufus'u İndirin
+- [Rufus'un resmi sitesini](https://rufus.ie/) ziyaret edin, ve sisteminize uygun olan sürümünü indirin.
+- Standart ve taşınabilir sürümlerden istediğinizi seçebilirsiniz.
 
-#### 2. Download EndeavourOS ISO
-- Visit the [official EndeavourOS website](https://endeavouros.com/) and download the latest ISO version that is suitable for your system from the listed mirrors.
-- Consider downloading the **signature file** for the 3. step.
-- To make the overall process faster, choose a mirror closest to your geographical location.
+#### 2. EndeavourOS'in ISO Dosyasını İndirin
+- [EndeavourOS'in resmi sitesini](https://endeavouros.com/) ziyaret edin ve listelenmiş aynalardan sisteminize uygun olan en güncel ISO dosyasını indirin.
+- 3. adım için **imza dosyasını** indirmeyi göz önünde bulundurun.
+- Bütün adımı hızlandırmak için coğrafi konumunuza en yakın olan aynayı tercih edebilirsiniz.
 
-#### 3. Verify the ISO (Optional but Highly Recommended)
-To check the authenticity and safety of the downloaded ISO file, you can use **GPG**. The recommended way to use GPG in this guide is via **WSL (Windows Subsystem for Linux)**.
-
-1. Install WSL by running **PowerShell as administrator** and run:
-(The default distro in WSL is **Ubuntu**, however because this guide aims to only use free and open source software, Debian will be used instead.)
+#### 3. ISO Dosyasını Doğrulayın (İsteğe bağlı fakat şiddetle tavsiye edilir)
+İndirilen ISO dosyasının özgünlüğünü ve güvenirliğini doğrulamak için **GPG**'yi kullanabilirsiniz. Bu rehberde GPG'yi kullanmanın önerilen yolu ise **WSL (Linux için Windows Alt Sistemi)** aracığıyladır.
 
    ```powershell
    wsl --install -d Debian
