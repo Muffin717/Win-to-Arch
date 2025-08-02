@@ -52,7 +52,7 @@ To check the authenticity and safety of the downloaded ISO file, you can use **G
 
 4. Check if GPG is installed by running:
    ```bash
-   sudo apt install gpg
+   sudo apt install gnupg
    ```
    If it is not installed, install it using the above command.
 5. Follow the instructions on the EndeavourOS website to verify the ISO file using the **sha512** and **gpg** commands.
